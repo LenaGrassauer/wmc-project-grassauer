@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: texas;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+@font-face {
+    font-family: texas;
+    src: url(../TexasFont/billy-argel_texas-tango-bold-personal-use/TEXAT\ BOLD\ PERSONAL\ USE___.otf);
+}
+nav {
+    background: #533900;
+    box-shadow: 10px 10px 8px #888888;
+    height: 15vh;
+    width: 100%;
+    font-family: 'texas';
+    display: flex;
+    margin-bottom: 5vh;
+    background-image: url(../sonnenuntergang-mit-pferd2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav ul {
+    margin-left: auto;
+    justify-content: flex-end;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 15px 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    padding: 7px 13px;
+    border-radius: 3px;
+    transition: all 0.5s ease-in-out;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #382819;
+    border-bottom: solid #3b2000 3px;
+}
+
+nav ul li:hover {
+    transform: scale(1.2);
+}
+
+
+button{
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(255, 255, 255, 0);
+    border-style: none;
+}
+
+
+
+#box{
+    padding: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.753);
+    color: white;
+    margin-top: 5%;
+    font-size: 1.5rem;
+    border-color: #5e3b13;
+    border-style: solid;
+    margin-bottom: 5%;
+    background-image: url(../backgroundImg/wood-2045380_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.col-md-6 {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-inner{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#headline{
+    font-family: texas;
+    font-size: 2rem;
+    border-style: solid;
+    border-color: #5e3b13;
+    background-color: rgba(0, 0, 0, 0.753);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    text-align: center;
+    color: white;
+    padding: 1%;
+}
+div img{
+    height: 40rem;
+    width: 40rem;
+}
